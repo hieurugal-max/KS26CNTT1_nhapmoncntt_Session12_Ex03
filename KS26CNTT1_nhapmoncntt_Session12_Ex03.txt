@@ -1,0 +1,26 @@
+Bài 3 : chuẩn hóa quy trình giao vận và tra cứu giá cước
+
+Phần 1: Phân tích
+
+VLOOKUP có 4 tham số, tương ứng với việc nhân viên kho tra cứu hồ sơ:
+
+- Lookup_value: Mã vận đơn cần tra cứu
+- Table_array: Bảng giá cước dùng để tra cứu
+- Col_index_num: Số thứ tự cột chứa giá cước trong bảng
+- Range_lookup: Nhập FALSE để tìm chính xác mã vận đơn
+
+Phần 2: Triển khai
+
+        Word
+
+- Soạn quy trình vận hành kho và hướng dẫn shipper nhận đơn
+- Sử dụng Heading 1, Heading 2 để phân cấp tiêu đề
+- Dùng Styles thống nhất màu sắc và định dạng theo thương hiệu FastMove
+
+         Excel
+
+- Tạo Sheet 1 chứa mã vận đơn và giá cước cần tra cứu
+- Tạo Sheet 2 chứa bảng mã vận đơn và giá cước
+- Sử dụng VLOOKUP để tự động tra cứu giá cước từ Sheet 2
+- Dùng dấu `$` để cố định vùng bảng tra cứu khi kéo công thức xuống 500 dòng
+- Không gộp ô, không để dòng trống trong bảng dữ liệu và bảo
